@@ -25,9 +25,9 @@ form.addEventListener('submit', (event) => {
         }
         else{
             message.innerHTML = "";
-            form.reset();
             localStorage.setItem('user', form.username.value);
             window.location.href = "/home.html";
+            form.reset();
         }
     }
 
