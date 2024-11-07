@@ -5,7 +5,7 @@
  }
 
 body {
-    background-image: url('./nature2.jpeg');
+    background-image: linear-gradient(to left, rgba(0,0,0,0.5), rgba(155, 18, 18, 0.5)), url('./home.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
@@ -14,4 +14,9 @@ body {
     align-items: center;
     height: 100dvh;
     width: 100dvw;
+}
+
+h1{
+    color:  white;
+    font-size: 50px;
 }
