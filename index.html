@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration form</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/index.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
 </head>
 <body>
 
     <div class="registration-form">
        <h1>Registration form</h1>
-       <form>
+       <form id="form">
         <label for="">User name:</label>
         <input type="text" name="username" placeholder="user Name">
         <label for="">Email:</label>
@@ -19,11 +19,14 @@
         <label for="">password:</label>
        <input type="password" name="password" placeholder="password">
        <label for="confirm_password">Confirm Password</label>
-       <input type="conformpassword">
+       <input type="password" name="confirm_password">
+
+       <p id="message" style="color: red; font-size: 12px;">  </p>
        <button type="submit">submit</button>
+
      </form>
     </div>
-    <script src="zainab.js"></script>
+    <script src="/index.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 </body>
 </html>
