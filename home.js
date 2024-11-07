@@ -10,7 +10,8 @@ const FindUser = () => {
         user.innerHTML = found;
     }
     else{
-        window.location.href("/index.html");
+       console.log("Rubbish");
+       
     }
     
 }
